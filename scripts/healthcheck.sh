@@ -1,7 +1,7 @@
 #!/bin/bash
 # healthcheck.sh - verifica a saude basica da maquina
 set -e
-echo "=== Health Check - $(hostname) - $(whoami) - $(date '+%d/%m/%Y %H:%M') ==="
+echo "=== Health Check da aplicacao - $(hostname) - $(whoami) - $(date '+%d/%m/%Y %H:%M') ==="
 
 
 SITE=${1:-ubuntu.com}

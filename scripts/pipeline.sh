@@ -38,10 +38,10 @@ stage() {    # stage NUMERO ICONE NOME SCRIPT [stages seguintes...]
 
 clear
 echo -e "${AZUL}"
-echo "  ╔══════════════════════════════════════════════╗"
-echo "  ║      🏭  ESTEIRA DEVOPS - BOOTCAMP 2026      ║"
-echo "  ║         build  ➜  test  ➜  deploy            ║"
-echo "  ╚══════════════════════════════════════════════╝"
+echo "  ╔════════════════════════════════════════════====══╗"
+echo "  ║      🏭  ESTEIRA DEVOPS - BOOTCAMP 2026 RPA      ║"
+echo "  ║         build  ➜  test  ➜  deploy                ║"
+echo "  ╚════════════════════════════════════════════====══╝"
 printf "${N}${CINZA}  iniciada por %s@%s as %s${N}\n" "$(whoami)" "$(hostname)" "$(date '+%H:%M:%S')"
 
 stage 1 "🔨" "BUILD"  build.sh  "TEST" "DEPLOY"
